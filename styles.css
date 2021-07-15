@@ -18,7 +18,7 @@ body {
     justify-content: center;
     text-align: center;
     width: 40%;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 .menu{
     width: 40%;
@@ -71,7 +71,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 .cont_img img{
-    height: 455px;
+    height: 600px;
     border-radius: 50px;
 }
 .arrow{
@@ -130,10 +130,8 @@ body {
 .fa-whatsapp{
   color: #00bb2d;
 }
-.linkedin-cont{
-  background-color: #0e76a8;
-  padding: 3.5px;
-  border-radius: 20%;
+.fa-linkedin{
+  color: #0e76a8;
 }
 .icons a {
   transition: all 0.2s ease-in-out;
@@ -218,11 +216,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-.btn_lin a{
+.cont_lin a{
     position: relative;
     top: 10px;
+    color: rgb(94, 94, 243);
 }
-.btn_lin:hover{
+.cont_lin:hover{
 	background-color: var(--background);
 	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
 }
